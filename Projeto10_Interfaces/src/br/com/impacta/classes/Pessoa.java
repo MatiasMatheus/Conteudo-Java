@@ -1,12 +1,15 @@
 package br.com.impacta.classes;
 
 import br.com.impacta.enumeracoes.Sexo;
+import br.com.impacta.interfaces.Documento;
 
 public abstract class Pessoa {
 	
 	private String nome;
 	private int idade;
 	private Sexo sexo;
+	
+	private Documento documento;
 	
 	public Pessoa() {
 		super();
